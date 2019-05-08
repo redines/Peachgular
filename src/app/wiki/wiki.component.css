@@ -1,0 +1,8 @@
+.wiki {
+    margin-top:2%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
