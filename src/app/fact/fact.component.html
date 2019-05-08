@@ -1,8 +1,9 @@
-<div class="facts">
-  <h1>fact</h1>
-  <section>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    Quasi deserunt enim ad facere odit, aliquid doloribus tempore corrupti excepturi 
-    natus, dignissimos voluptates distinctio velit id corporis nihil consectetur ratione nisi.
-  </section>
+<div *ngFor="let fact of facts" class="facts">
+  <span>{{fact.id}}</span>
+  <h1>{{fact.head}}</h1>
+  <div>{{fact.fact}}</div>
 </div>
+
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rem rerum dolor ut praesentium unde perspiciatis eligendi, 
+odio iure at aliquid eveniet doloremque ab nemo repudiandae inventore sequi. Iure, molestiae.
